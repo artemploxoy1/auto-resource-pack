@@ -1,0 +1,22 @@
+{
+  "name": "auto-resource-pack",
+  "version": "1.0.0",
+  "description": "Автоматически отвечает на запросы ресурс-паков от сервера (включая фазу конфигурации 1.20.3 - 1.21+), предотвращая кики при переходах BungeeCord/Velocity и прочих сервисов.",
+  "main": "index.js",
+  "author": "artemploxoy",
+  "botpanel": {
+    "icon": "Package",
+    "categories": [
+      "Автоматизация",
+      "Утилиты"
+    ],
+    "settings": {
+      "simulatedDelayMs": {
+        "type": "number",
+        "label": "Задержка скачивания (мс)",
+        "description": "Имитация времени скачивания ресурс-пака перед отправкой ответа об успешной загрузке.",
+        "default": 100
+      }
+    }
+  }
+}
