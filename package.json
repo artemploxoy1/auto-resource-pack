@@ -18,5 +18,15 @@
         "default": 100
       }
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemploxoy1/auto-resource-pack"
+  },
+  "keywords": [
+    "blockmine",
+    "blockmine-plugin",
+    "minecraft",
+    "mineflayer"
+  ]
 }
